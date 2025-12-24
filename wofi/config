@@ -1,0 +1,9 @@
+hide_scroll=true
+width=50%
+allow_images=true
+image_size=15
+location=center
+layer=overlay
+lines=7
+sort_order=alphabetical
+show_all=true
