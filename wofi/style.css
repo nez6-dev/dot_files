@@ -5,24 +5,24 @@
 }
 /* The main window container */
 #window {
-    border-radius: 10px; /* Rounded corners for the entire window */
-    background-color: rgba(14, 14, 20, 0.80); /*#1c1c1c; /* Dark background color */
-    border: 2px solid #777f94; /* Thin border around the window */
+    /*border-radius: 10px; /* Rounded corners for the entire window */
+    background-color: rgba(00, 00, 00, 0.95); /*#1c1c1c; /* Dark background color */
+    border: 2px solid #ccc;
 }
 
 /* The search input bar */
 #input {
-    background-color: rgba(14, 14, 20, 0.80);/*#1c1c1c; /* Same background as window */
-    border: 2px solid #777f94; /*#bcbcbcee; /* Border to distinguish the input */
-    border-radius: 10px; /* Square corners for input field */
-    color: #989ad4; /*#bcbcbc; /* Text color */
+    background-color: rgba(00, 00, 00, 0.95);/*#1c1c1c; /* Same background as window */
+    border: 2px solid #fff;
+    border-radius: 0px;
+    color: #fff;
     margin: 5px; /* Spacing around the input */
     padding: 5px;
 }
 
 /* The box that contains all the entries (the list) */
 #inner-box {
-    margin: 5px; /* Spacing around the entry list */
+    margin: 5px;
 }
 
 /* Individual entries */
@@ -35,8 +35,10 @@
 /* The selected (highlighted) entry */
 #entry:selected {
     outline: none; /* Remove default outline */
-    background-color: #20222f;/*#5f87af; /* Highlight color for selected item */
-    color: #989ad4; /*#bcbcbc; /* Text color for selected item */
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 0px;
+    margin-bottom: 4px
 }
 
 /* Text within the entries */

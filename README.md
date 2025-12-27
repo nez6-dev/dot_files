@@ -8,6 +8,7 @@ hyprland <br>
 waybar <br>
 kitty <br>
 wofi <br>
+dunst<br>
 
 <span>É importante que a pasta Wallpapers seja colocada dentro da pasta Imagens da home, ou se preferir, pode alterar o que foi configurado nos seguintes arquivos: <br>
 hypr/hyprland.conf & hypr/scripts/changebg.sh <br><span>

@@ -3,7 +3,7 @@
     font-family: 'JetBrainsMono Nerd Font Propo Extra Bold', 'Symbols Nerd Font Mono', 'Symbols Nerd Font';
     font-size: 10px;
     font-weight: bold;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     min-height: 4px;
 }
 
@@ -61,7 +61,7 @@ window#waybar.hidden {
 #mpd {
     padding: 0 9px;
     color: #ffffff;
-    margin: 0 2px;
+    margin: 0 1px;
 }
 
 #window,
